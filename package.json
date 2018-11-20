@@ -1,0 +1,47 @@
+{
+  "name": "eccss",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack -p --progress --mode production",
+    "watch": "cross-env NODE_ENV=development webpack -p --progress --mode development --watch",
+    "lint:sass": "sass-lint -c .sass-lint.yml -v -q",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.scss": [
+      "npm run lint:sass",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "author": "hiro <hiro@0218.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "clean-webpack-plugin": "^1.0.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "husky": "^1.1.4",
+    "lint-staged": "^8.0.5",
+    "node-sass": "^4.10.0",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.15.2",
+    "sass-lint": "^1.12.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
