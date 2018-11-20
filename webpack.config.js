@@ -30,7 +30,7 @@ let config = {
   },
   plugins: [
     new ExtractTextPlugin({
-      filename: 'main.css',
+      filename: 'eccss.css',
       allChunks: true,
     }),
     new FriendlyErrorsWebpackPlugin(),
