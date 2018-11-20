@@ -6,8 +6,7 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack -p --progress --mode production",
     "watch": "cross-env NODE_ENV=development webpack -p --progress --mode development --watch",
-    "lint:sass": "sass-lint -c .sass-lint.yml -v -q",
-    "precommit": "lint-staged"
+    "lint:sass": "sass-lint -c .sass-lint.yml -v -q"
   },
   "lint-staged": {
     "**/*.js": [
@@ -43,5 +42,10 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
