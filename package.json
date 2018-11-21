@@ -40,9 +40,7 @@
     "webpack-cli": "^3.1.2",
     "webpack-merge": "^4.1.4"
   },
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  },
+  "dependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
