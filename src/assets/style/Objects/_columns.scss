@@ -1,0 +1,26 @@
+.o-columns {
+  display: flex;
+  flex-wrap: wrap;
+
+  .column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    &.is-full {
+      flex: none;
+      width: 100%;
+    }
+
+    &.is-half {
+      flex: none;
+      width: 50%;
+    }
+
+    &.is-one-quarter {
+      flex: none;
+      width: 25%;
+    }
+  }
+}

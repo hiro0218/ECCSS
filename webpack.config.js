@@ -38,6 +38,12 @@ let config = {
   module: {
     rules: [
       {
+        enforce: 'pre',
+        test: /\.(js|s?[ca]ss)$/,
+        include: path.resolve(__dirname, 'src'),
+        loader: 'import-glob',
+      },
+      {
         test: /\.scss/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
