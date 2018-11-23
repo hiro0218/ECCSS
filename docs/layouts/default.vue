@@ -1,11 +1,13 @@
 <template>
-  <main>
-    <aside>
-      <TheMenu />
-    </aside>
-    <section class="o-container">
-      <nuxt/>
-    </section>
+  <main class="o-container">
+    <div class="o-columns">
+      <aside class="colum one-quarter">
+        <TheMenu />
+      </aside>
+      <section class="column">
+        <nuxt/>
+      </section>
+    </div>
   </main>
 </template>
 
