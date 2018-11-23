@@ -17,3 +17,7 @@ img {
   vertical-align: middle;
   border-style: none;
 }
+
+input::-ms-clear {
+  display: none;
+}
