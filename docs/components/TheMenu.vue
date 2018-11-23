@@ -8,6 +8,11 @@
         </ul>
       </li>
       <li><nuxt-link to="/layout">Layout</nuxt-link></li>
+      <li>Components
+        <ul>
+          <li><nuxt-link to="/table">Table</nuxt-link></li>
+        </ul>
+      </li>
     </ul>
   </div>
 </template>
