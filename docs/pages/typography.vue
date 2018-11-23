@@ -3,7 +3,7 @@
     <h1>Typography</h1>
 
     <h2>Heading</h2>
-    <table>
+    <table class="c-table">
       <thead>
         <tr>
           <th>code</th>
