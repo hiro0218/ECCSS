@@ -11,6 +11,7 @@
       <li>Components
         <ul>
           <li><nuxt-link to="/table">Table</nuxt-link></li>
+          <li><nuxt-link to="/list">List</nuxt-link></li>
         </ul>
       </li>
     </ul>

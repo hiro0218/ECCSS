@@ -1,0 +1,42 @@
+<template>
+  <section class="p-list">
+    <h1>List</h1>
+    <blockquote>
+      五箇条の御誓文（ごかじょうのごせいもん）は、慶応4年3月14日（1868年4月6日）に明治天皇が天地神明に誓約する形式で、公卿や諸侯などに示した明治政府の基本方針である。正式名称は御誓文であり、以下においては御誓文と表記する。
+    </blockquote>
+    <ul class="c-list">
+      <li>
+        一 廣ク會議ヲ興シ萬機公論ニ決スベシ
+        <ul>
+          <li>（現代表記）広く会議を興し、万機公論に決すべし。</li>
+          <ul>
+            <li>（由利案第五条）万機公論に決し私に論ずるなかれ</li>
+            <li>（福岡案第一条）列侯会議を興し万機公論に決すべし</li>
+          </ul>
+        </ul>
+      </li>
+      <li>一 上下心ヲ一ニシテ盛ニ經綸ヲ行フべシ</li>
+      <li>一 官武一途庶民ニ至ル迄各其志ヲ遂ケ人心ヲシテ倦マサラシメン事ヲ要ス</li>
+      <li>一 舊來ノ陋習ヲ破リ天地ノ公道ニ基クべシ</li>
+      <li>一 智識ヲ世界ニ求メ大ニ皇基ヲ振起スべシ</li>
+    </ul>
+
+    <h2>c-list notice</h2>
+    <ul class="c-list notice">
+      <li class="item">sample@example.jp</li>
+      <li class="item">1234567<br>半角数字且つハイフンなしで入力</li>
+    </ul>
+
+  </section>
+</template>
+
+<script>
+export default {
+  name: 'List'
+}
+</script>
+
+<style lang="scss">
+.p-list {
+}
+</style>
