@@ -52,11 +52,11 @@
 
 <script>
 export default {
-  name: 'Typography'
+  name: 'Table'
 }
 </script>
 
 <style lang="scss">
-.p-typography {
+.p-table {
 }
 </style>
