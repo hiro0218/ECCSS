@@ -1,1 +1,1 @@
-# ECCSS Document
+# ECCSS
