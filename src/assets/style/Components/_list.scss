@@ -1,0 +1,15 @@
+.c-list {
+  margin-left: 1.5rem;
+  padding-left: 0;
+  line-height: 1.7;
+
+  &.notice {
+    .item {
+      list-style: none;
+      &::before {
+        content: '※';
+        margin-left: -1rem;
+      }
+    }
+  }
+}
