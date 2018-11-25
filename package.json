@@ -42,7 +42,8 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "open-color": "^1.6.3"
   },
   "husky": {
     "hooks": {
