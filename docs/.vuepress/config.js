@@ -21,12 +21,12 @@ module.exports = {
       {
         title: 'Layouts',
         collapsable: false,
-        children: ['docs/layouts/'],
+        children: ['docs/layouts/column'],
       },
       {
         title: 'Elements',
         collapsable: false,
-        children: ['docs/elements/', 'docs/elements/typography'],
+        children: ['docs/elements/typography'],
       },
       {
         title: 'Components',
