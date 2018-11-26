@@ -14,5 +14,25 @@ module.exports = {
         link: '/docs/',
       },
     ],
+    '/': {
+      sidebar: false,
+    },
+    sidebar: [
+      {
+        title: 'Layouts',
+        collapsable: false,
+        children: ['docs/layouts/'],
+      },
+      {
+        title: 'Elements',
+        collapsable: false,
+        children: ['docs/elements/', 'docs/elements/typography'],
+      },
+      {
+        title: 'Components',
+        collapsable: false,
+        children: ['docs/components/list', 'docs/components/table'],
+      },
+    ],
   },
 };
