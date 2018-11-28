@@ -7,9 +7,7 @@
   white-space: nowrap;
   padding: 0.5rem 1rem;
   border-radius: 0.15rem;
-  background-color: #f5f5f5;
   border: 1px solid transparent;
-  background: $plain-color;
   line-height: 1.5;
   font-weight: normal;
   user-select: none;
@@ -27,27 +25,26 @@
     opacity: 0.6;
   }
 
-  &.primary {
-    color: $color-white;
-    background: $primary-color;
+  & + .c-button {
+    margin-left: 0.5rem;
   }
 
-  &.success {
-    color: $color-white;
-    background: $success-color;
-  }
-
-  &.danger {
-    color: $color-white;
-    background: $danger-color;
-  }
-
-  &.warning {
-    background: $warning-color;
-  }
-
-  &.info {
-    color: $color-white;
-    background: $info-color;
+  @each $key, $value in $theme-colors {
+    &.#{$key} {
+      background: $value;
+      @if $key != 'plain' {
+        color: $color-white;
+      }
+    }
+    &.#{$key}.outline {
+      background: transparent;
+      @if $key != 'plain' {
+        border-color: $value;
+        color: $value;
+      } @else {
+        border-color: $base-color;
+        color: $base-color;
+      }
+    }
   }
 }
