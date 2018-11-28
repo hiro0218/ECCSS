@@ -1,0 +1,53 @@
+.c-button {
+  @include hover-behavior;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  border-radius: 0.15rem;
+  background-color: #f5f5f5;
+  border: 1px solid transparent;
+  background: $plain-color;
+  line-height: 1.5;
+  font-weight: normal;
+  user-select: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+
+  &.disabled,
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.6;
+  }
+
+  &.primary {
+    color: $color-white;
+    background: $primary-color;
+  }
+
+  &.success {
+    color: $color-white;
+    background: $success-color;
+  }
+
+  &.danger {
+    color: $color-white;
+    background: $danger-color;
+  }
+
+  &.warning {
+    background: $warning-color;
+  }
+
+  &.info {
+    color: $color-white;
+    background: $info-color;
+  }
+}
