@@ -1,13 +1,26 @@
 @import '~open-color/open-color.scss';
 
-$color-white: #fff;
-$color-black: #000;
+$base-color: $oc-gray-9 !default;
 
-$base-color: $oc-gray-9;
+$color-white: #fff !default;
+$color-black: #000 !default;
 
-$plain-color: $oc-gray-2;
-$primary-color: $oc-blue-4;
-$success-color: $oc-lime-4;
-$danger-color: $oc-red-7;
-$warning-color: $oc-yellow-4;
-$info-color: $oc-cyan-4;
+$plain-color: $oc-gray-2 !default;
+$primary-color: $oc-blue-4 !default;
+$success-color: $oc-lime-6 !default;
+$danger-color: $oc-red-7 !default;
+$warning-color: $oc-orange-6 !default;
+$info-color: $oc-cyan-4 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    'plain': $plain-color,
+    'primary': $primary-color,
+    'success': $success-color,
+    'danger': $danger-color,
+    'warning': $warning-color,
+    'info': $info-color,
+  ),
+  $theme-colors
+);
