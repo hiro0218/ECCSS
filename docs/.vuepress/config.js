@@ -31,7 +31,7 @@ module.exports = {
       {
         title: 'Components',
         collapsable: false,
-        children: ['docs/components/list', 'docs/components/table'],
+        children: ['docs/components/button', 'docs/components/list', 'docs/components/table'],
       },
     ],
   },
