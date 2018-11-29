@@ -48,6 +48,23 @@
 <button type="button" class="c-button primary outline" disabled>Primary disabled</button>
 ```
 
+## size
+
+サイズ
+
+<div class="sample-container">
+  <button type="button" class="c-button primary size-sm">Primary</button>
+  <button type="button" class="c-button primary">Primary</button>
+  <button type="button" class="c-button primary size-lg">Primary</button>
+</div>
+
+```html
+<button type="button" class="c-button primary size-sm">Primary</button>
+<button type="button" class="c-button primary">Primary</button>
+<button type="button" class="c-button primary size-lg">Primary</button>
+```
+
+
 <style lang="scss" scoped>
 .sample-container {
   display: flex;
