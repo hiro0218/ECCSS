@@ -48,6 +48,32 @@
 <button type="button" class="c-button primary outline" disabled>Primary disabled</button>
 ```
 
+
+## flat
+
+フラットなボタン
+
+<div class="sample-container">
+  <button type="button" class="c-button plain flat">Default</button>
+  <button type="button" class="c-button primary flat">Primary</button>
+  <button type="button" class="c-button success flat">Success</button>
+  <button type="button" class="c-button danger flat">Danger</button>
+  <button type="button" class="c-button warning flat">Warning</button>
+  <button type="button" class="c-button info flat">Info</button>
+  <button type="button" class="c-button primary flat" disabled>Primary disabled</button>
+</div>
+
+```html
+<button type="button" class="c-button plain flat">Default</button>
+<button type="button" class="c-button primary flat">Primary</button>
+<button type="button" class="c-button success flat">Success</button>
+<button type="button" class="c-button danger flat">Danger</button>
+<button type="button" class="c-button warning flat">Warning</button>
+<button type="button" class="c-button info flat">Info</button>
+<button type="button" class="c-button primary flat" disabled>Primary disabled</button>
+```
+
+
 ## size
 
 サイズ
