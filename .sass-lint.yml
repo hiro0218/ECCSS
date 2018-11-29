@@ -27,10 +27,6 @@ rules:
   no-empty-rulesets: 2
   no-important: 2
   no-invalid-hex: 2
-  indentation:
-    - 2
-    -
-      size: 2
   space-before-brace:
     - 2
     - include: true
