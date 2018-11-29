@@ -1,23 +1,19 @@
 .c-button {
-  @include hover-behavior;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   align-self: flex-start;
   white-space: nowrap;
-  padding: 0.5rem 1rem;
-  border-radius: 0.15rem;
+  padding: $button-padding;
+  border-radius: $button-border-radius;
   border: 1px solid transparent;
-  line-height: 1.5;
+  line-height: $button-line-height;
   font-weight: normal;
+  cursor: pointer;
+  transition: $button-transition;
   user-select: none;
   -moz-appearance: none;
   -webkit-appearance: none;
-
-  &:focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
-  }
 
   &.disabled,
   &:disabled {
@@ -35,15 +31,35 @@
       @if $key != 'plain' {
         color: $color-white;
       }
+      &:hover {
+        opacity: 0.6;
+      }
+      &:focus {
+        outline: 0;
+        box-shadow: $button-focus-size rgba($value, 0.5);
+      }
     }
     &.#{$key}.outline {
-      background: transparent;
+      $outline-border-color: '';
+      $outline-color: '';
+
       @if $key != 'plain' {
-        border-color: $value;
-        color: $value;
+        $outline-border-color: $value;
+        $outline-color: $value;
       } @else {
-        border-color: $base-color;
-        color: $base-color;
+        $outline-border-color: $base-color;
+        $outline-color: $base-color;
+      }
+
+      background: transparent;
+      border-color: $outline-border-color;
+      color: $outline-color;
+      transition: $button-outline-transition;
+
+      &:hover {
+        background: $outline-border-color;
+        color: $color-white;
+        opacity: 1;
       }
     }
   }
