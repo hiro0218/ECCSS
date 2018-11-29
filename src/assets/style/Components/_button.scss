@@ -62,6 +62,22 @@
         opacity: 1;
       }
     }
+    &.#{$key}.flat {
+      background: transparent;
+      border-color: transparent;
+      transition: $button-outline-transition;
+
+      @if $key != 'plain' {
+        color: $value;
+      } @else {
+        color: $base-color;
+      }
+
+      &:hover {
+        background: $plain-color;
+        opacity: 1;
+      }
+    }
   }
 
   @each $key, $value in $size {
