@@ -8,8 +8,12 @@
   @each $key, $color in $theme-colors {
     &.#{$key} {
       border-color: $color;
-      @if $key != 'plain' {
-        color: $color;
+      background-color: map-get($theme-bg, $key);
+      // @if $key != 'plain' {
+      color: $color;
+      // }
+      a {
+        color: darken($color, 20%);
       }
     }
   }
