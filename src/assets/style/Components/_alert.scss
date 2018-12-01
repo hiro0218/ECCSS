@@ -16,5 +16,10 @@
         color: darken($color, 20%);
       }
     }
+
+    &.#{$key}.outline {
+      border-color: $color;
+      background-color: transparent;
+    }
   }
 }
