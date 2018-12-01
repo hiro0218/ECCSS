@@ -28,9 +28,7 @@
   @each $key, $value in $theme-colors {
     &.#{$key} {
       background: $value;
-      @if $key != 'plain' {
-        color: $color-white;
-      }
+      color: $color-white;
       &:hover {
         opacity: 0.6;
       }
@@ -40,24 +38,13 @@
       }
     }
     &.#{$key}.outline {
-      $outline-border-color: '';
-      $outline-color: '';
-
-      @if $key != 'plain' {
-        $outline-border-color: $value;
-        $outline-color: $value;
-      } @else {
-        $outline-border-color: $base-color;
-        $outline-color: $base-color;
-      }
-
       background: transparent;
-      border-color: $outline-border-color;
-      color: $outline-color;
+      border-color: $value;
+      color: $value;
       transition: $button-outline-transition;
 
       &:hover {
-        background: $outline-border-color;
+        background: $value;
         color: $color-white;
         opacity: 1;
       }
@@ -65,16 +52,11 @@
     &.#{$key}.flat {
       background: transparent;
       border-color: transparent;
+      color: $value;
       transition: $button-outline-transition;
 
-      @if $key != 'plain' {
-        color: $value;
-      } @else {
-        color: $base-color;
-      }
-
       &:hover {
-        background: $plain-color;
+        background-color: map-get($theme-bg, 'plain');
         opacity: 1;
       }
     }
