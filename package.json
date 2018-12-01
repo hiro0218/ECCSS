@@ -30,24 +30,24 @@
     "css-loader": "^1.0.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
-    "husky": "^1.1.4",
+    "husky": "^1.2.0",
     "import-glob": "^1.5.0",
-    "lint-staged": "^8.0.5",
+    "lint-staged": "^8.1.0",
     "node-sass": "^4.10.0",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-loader": "^3.0.0",
-    "prettier": "^1.15.2",
+    "prettier": "^1.15.3",
     "sass-lint": "^1.12.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "webpack": "^4.26.0",
+    "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2",
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
     "open-color": "^1.6.3",
-    "vuepress": "^0.14.5"
+    "vuepress": "^0.14.8"
   },
   "husky": {
     "hooks": {
