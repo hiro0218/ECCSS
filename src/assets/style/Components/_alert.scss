@@ -10,7 +10,6 @@
 
   @each $key, $color in $theme-colors {
     &.#{$key} {
-      border-color: $color;
       background-color: map-get($theme-bg, $key);
       color: $color;
       a {
