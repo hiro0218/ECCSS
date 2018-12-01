@@ -5,6 +5,7 @@ module.exports = ctx => {
         grid: true,
         cascade: false,
       }),
+      require('postcss-flexbugs-fixes'),
     ],
   };
 };
