@@ -27,16 +27,17 @@
   }
 }
 
-// checkbox
-
-.c-checkbox {
+// checkbox & radio base
+.c-checkbox,
+.c-radio {
   display: flex;
   align-self: flex-start;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 
-  input[type='checkbox'] {
+  input[type='checkbox'],
+  input[type='radio'] {
     position: absolute;
     opacity: 0;
 
@@ -46,14 +47,9 @@
       width: 1rem;
       height: 1rem;
       margin-right: 0.25rem;
-      background-image: url('~@src/assets/image/check_box_blank.svg');
       background-repeat: no-repeat;
       background-size: contain;
       content: '';
-    }
-    &:checked + label::before,
-    &:checked + span::before {
-      background-image: url('~@src/assets/image/check_box.svg');
     }
     &:disabled + label,
     &:disabled + span {
@@ -63,37 +59,30 @@
   }
 }
 
-// radio
-
-.c-radio {
-  display: flex;
-  align-self: flex-start;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-
-  input[type='radio'] {
-    position: absolute;
-    opacity: 0;
-
+// checkbox
+.c-checkbox {
+  input[type='checkbox'] {
     & + label::before,
     & + span::before {
-      width: 1rem;
-      height: 1rem;
-      margin-right: 0.25rem;
+      background-image: url('~@src/assets/image/check_box_blank.svg');
+    }
+    &:checked + label::before,
+    &:checked + span::before {
+      background-image: url('~@src/assets/image/check_box.svg');
+    }
+  }
+}
+
+// radio
+.c-radio {
+  input[type='radio'] {
+    & + label::before,
+    & + span::before {
       background-image: url('~@src/assets/image/radio_button_unchecked.svg');
-      background-repeat: no-repeat;
-      background-size: contain;
-      content: '';
     }
     &:checked + label::before,
     &:checked + span::before {
       background-image: url('~@src/assets/image/radio_button_checked.svg');
-    }
-    &:disabled + label,
-    &:disabled + span {
-      opacity: 0.6;
-      cursor: not-allowed;
     }
   }
 }
