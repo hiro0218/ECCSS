@@ -40,6 +40,7 @@ module.exports = {
           `${path_components}/button`,
           `${path_components}/list`,
           `${path_components}/table`,
+          `${path_components}/form`,
         ],
       },
     ],
