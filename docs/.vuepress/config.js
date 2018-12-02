@@ -1,3 +1,7 @@
+const path_layouts = 'docs/layouts';
+const path_elements = 'docs/elements';
+const path_components = 'docs/components';
+
 module.exports = {
   title: 'ECCSS',
   description: 'ECCSS Project Documentation System',
@@ -21,17 +25,22 @@ module.exports = {
       {
         title: 'Layouts',
         collapsable: false,
-        children: ['docs/layouts/column'],
+        children: [`${path_layouts}/column`],
       },
       {
         title: 'Elements',
         collapsable: false,
-        children: ['docs/elements/typography'],
+        children: [`${path_elements}/typography`],
       },
       {
         title: 'Components',
         collapsable: false,
-        children: ['docs/components/alert', 'docs/components/button', 'docs/components/list', 'docs/components/table'],
+        children: [
+          `${path_components}/alert`,
+          `${path_components}/button`,
+          `${path_components}/list`,
+          `${path_components}/table`,
+        ],
       },
     ],
   },
