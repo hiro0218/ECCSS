@@ -27,6 +27,9 @@ let config = {
   },
   resolve: {
     modules: ['node_modules', path.resolve(__dirname, 'src')],
+    alias: {
+      '@src': path.resolve(__dirname, 'src'),
+    },
   },
   plugins: [
     new ExtractTextPlugin({
@@ -69,6 +72,10 @@ let config = {
             },
           ],
         }),
+      },
+      {
+        test: /\.svg$/,
+        use: 'file-loader',
       },
     ],
   },
