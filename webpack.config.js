@@ -64,6 +64,7 @@ let config = {
                 sourceMap: IS_DEV,
               },
             },
+            'svg-transform-loader/encode-query',
             {
               loader: 'sass-loader',
               options: {
@@ -75,7 +76,15 @@ let config = {
       },
       {
         test: /\.svg$/,
-        use: 'file-loader',
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'image/[name]_[hash:8].[ext]',
+            },
+          },
+          { loader: 'svg-transform-loader' },
+        ],
       },
     ],
   },
