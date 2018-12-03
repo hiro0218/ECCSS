@@ -1,0 +1,29 @@
+.c-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: $breadcrumb-padding-y $breadcrumb-padding-x;
+  margin-bottom: 1rem;
+  list-style: none;
+
+  .breadcrumb-item {
+    &.active {
+      color: $breadcrumb-active-color;
+      font-weight: bold;
+      &::before {
+        font-weight: normal;
+      }
+    }
+    & + .breadcrumb-item {
+      margin-left: $breadcrumb-item-margin;
+
+      @if $breadcrumb-divider != false {
+        &::before {
+          display: inline-block;
+          margin-right: $breadcrumb-item-margin;
+          color: $breadcrumb-divider-color;
+          content: $breadcrumb-divider;
+        }
+      }
+    }
+  }
+}
