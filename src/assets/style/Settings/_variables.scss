@@ -40,3 +40,12 @@ $button-outline-transition: color 0.15s ease-in-out, background-color 0.15s ease
 $alert-padding-y: 1rem !default;
 $alert-padding-x: 1rem !default;
 $alert-border-radius: 0.15rem !default;
+
+// Breadcrumb
+
+$breadcrumb-padding-y: 0.75rem !default;
+$breadcrumb-padding-x: 1rem !default;
+$breadcrumb-item-margin: 0.5rem !default;
+$breadcrumb-active-color: $oc-gray-6 !default;
+$breadcrumb-divider-color: $oc-gray-6 !default;
+$breadcrumb-divider: quote('/') !default;
