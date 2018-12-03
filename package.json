@@ -24,7 +24,7 @@
   "author": "hiro <hiro@0218.jp>",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^9.3.1",
+    "autoprefixer": "^9.4.0",
     "clean-webpack-plugin": "^1.0.0",
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.1",
