@@ -64,11 +64,11 @@
   input[type='checkbox'] {
     & + label::before,
     & + span::before {
-      background-image: url('~@src/assets/image/check_box_blank.svg');
+      background-image: url('~@src/assets/image/check_box_blank.svg?fill=#{$base-color} path');
     }
     &:checked + label::before,
     &:checked + span::before {
-      background-image: url('~@src/assets/image/check_box.svg');
+      background-image: url('~@src/assets/image/check_box.svg?fill=#{$base-color} path');
     }
   }
 }
@@ -78,11 +78,11 @@
   input[type='radio'] {
     & + label::before,
     & + span::before {
-      background-image: url('~@src/assets/image/radio_button_unchecked.svg');
+      background-image: url('~@src/assets/image/radio_button_unchecked.svg?fill=#{$base-color} path');
     }
     &:checked + label::before,
     &:checked + span::before {
-      background-image: url('~@src/assets/image/radio_button_checked.svg');
+      background-image: url('~@src/assets/image/radio_button_checked.svg?fill=#{$base-color} path');
     }
   }
 }
