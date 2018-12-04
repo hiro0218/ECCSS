@@ -11,5 +11,11 @@
     & + .list-group-item {
       border-top: none;
     }
+
+    &.active {
+      border-color: $primary-color;
+      background-color: $primary-color;
+      color: $color-white;
+    }
   }
 }
