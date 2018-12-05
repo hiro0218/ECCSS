@@ -5,6 +5,15 @@
   padding-left: 0;
   color: $base-color;
 
+  a {
+    color: inherit;
+    transition: background 0.2s ease;
+    &:hover {
+      background: $plain-bg;
+      text-decoration: none;
+    }
+  }
+
   .list-group-item {
     display: block;
     padding: 0.75rem 1.25rem;
