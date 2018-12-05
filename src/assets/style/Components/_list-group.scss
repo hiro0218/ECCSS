@@ -3,6 +3,7 @@
   flex-direction: column;
   margin: 0;
   padding-left: 0;
+  color: $base-color;
 
   .list-group-item {
     display: block;
@@ -16,6 +17,11 @@
       border-color: $primary-color;
       background-color: $primary-color;
       color: $color-white;
+    }
+
+    &.disabled {
+      color: rgba($base-color, 0.3);
+      pointer-events: none;
     }
   }
 }
