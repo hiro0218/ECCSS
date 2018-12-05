@@ -5,6 +5,25 @@
   padding-left: 0;
   color: $base-color;
 
+  &.arrow {
+    .list-group-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &::after {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        background-image: url('~@src/assets/image/arrow_right.svg?fill=#{$plain-color} path');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+
   &.bone {
     .list-group-item {
       border-right: 0;
@@ -29,7 +48,7 @@
 
   .list-group-item {
     display: block;
-    padding: 0.75rem 1.25rem;
+    padding: 0.75rem 1rem;
     border: 1px solid $oc-gray-4;
     & + .list-group-item {
       border-top: none;

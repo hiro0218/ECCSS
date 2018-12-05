@@ -22,6 +22,28 @@
 </ul>
 ```
 
+## arrow
+
+<div class="sample-container">
+  <ul class="c-list-group arrow">
+    <li class="list-group-item">トップス</li>
+    <li class="list-group-item">ジャケット・アウター</li>
+    <li class="list-group-item">パンツ</li>
+    <li class="list-group-item">オールインワン・サロペット</li>
+    <li class="list-group-item">スカート</li>
+  </ul>
+</div>
+
+```html
+<ul class="c-list-group">
+  <li class="list-group-item">トップス</li>
+  <li class="list-group-item">ジャケット・アウター</li>
+  <li class="list-group-item">パンツ</li>
+  <li class="list-group-item">オールインワン・サロペット</li>
+  <li class="list-group-item">スカート</li>
+</ul>
+```
+
 ## bone
 
 <div class="sample-container">
@@ -35,7 +57,7 @@
 </div>
 
 ```html
-<ul class="c-list-group">
+<ul class="c-list-group bone">
   <li class="list-group-item">トップス</li>
   <li class="list-group-item">ジャケット・アウター</li>
   <li class="list-group-item">パンツ</li>
