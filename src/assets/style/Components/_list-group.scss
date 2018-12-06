@@ -1,0 +1,74 @@
+.c-list-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-left: 0;
+  color: $base-color;
+
+  &.arrow {
+    .list-group-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &::after {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        background-image: url('~@src/assets/image/arrow_right.svg?fill=#{$plain-color} path');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      &.active::after {
+        background-image: url('~@src/assets/image/arrow_right.svg?fill=#{$color-white} path');
+      }
+      &.disabled::after {
+        background-image: url('~@src/assets/image/arrow_right.svg?fill=#{lighten($base-color, 60%)} path');
+      }
+    }
+  }
+
+  &.bone {
+    .list-group-item {
+      border-right: 0;
+      border-left: 0;
+      &:first-child {
+        border-top: 0;
+      }
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+
+  a {
+    color: inherit;
+    transition: background 0.2s ease;
+    &:hover {
+      background: $plain-bg;
+      text-decoration: none;
+    }
+  }
+
+  .list-group-item {
+    display: block;
+    padding: 0.75rem 1rem;
+    border: 1px solid $oc-gray-4;
+    & + .list-group-item {
+      border-top: none;
+    }
+
+    &.active {
+      border-color: $primary-color;
+      background-color: $primary-color;
+      color: $color-white;
+    }
+
+    &.disabled {
+      color: lighten($base-color, 60%);
+      pointer-events: none;
+    }
+  }
+}
