@@ -26,7 +26,7 @@
 
 <div class="sample-container">
   <ul class="c-list-group arrow">
-    <li class="list-group-item">トップス</li>
+    <li class="list-group-item active">トップス</li>
     <li class="list-group-item">ジャケット・アウター</li>
     <li class="list-group-item">パンツ</li>
     <li class="list-group-item">オールインワン・サロペット</li>

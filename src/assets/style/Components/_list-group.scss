@@ -21,6 +21,12 @@
         background-repeat: no-repeat;
         background-size: contain;
       }
+      &.active::after {
+        background-image: url('~@src/assets/image/arrow_right.svg?fill=#{$color-white} path');
+      }
+      &.disabled::after {
+        background-image: url('~@src/assets/image/arrow_right.svg?fill=#{lighten($base-color, 60%)} path');
+      }
     }
   }
 
@@ -61,7 +67,7 @@
     }
 
     &.disabled {
-      color: rgba($base-color, 0.3);
+      color: lighten($base-color, 60%);
       pointer-events: none;
     }
   }
