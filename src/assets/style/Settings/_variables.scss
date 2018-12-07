@@ -25,16 +25,6 @@ $size: (
 
 $grid-gap: 2rem !default;
 
-// Button
-
-$button-padding-y: 0.5rem !default;
-$button-padding-x: 1rem !default;
-$button-border-radius: 0.15rem !default;
-$button-line-height: 1.5 !default;
-$button-focus-size: 0 0 0 0.2rem !default;
-$button-transition: opacity 0.2s ease !default;
-$button-outline-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out !default;
-
 // Alert
 
 $alert-padding-y: 1rem !default;
@@ -49,6 +39,16 @@ $breadcrumb-item-margin: 0.5rem !default;
 $breadcrumb-active-color: $oc-gray-6 !default;
 $breadcrumb-divider-color: $oc-gray-6 !default;
 $breadcrumb-divider: quote('/') !default;
+
+// Button
+
+$button-padding-y: 0.5rem !default;
+$button-padding-x: 1rem !default;
+$button-border-radius: 0.15rem !default;
+$button-line-height: 1.5 !default;
+$button-focus-size: 0 0 0 0.2rem !default;
+$button-transition: opacity 0.2s ease !default;
+$button-outline-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out !default;
 
 // List group
 
