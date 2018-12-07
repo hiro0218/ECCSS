@@ -24,7 +24,7 @@
   }
 
   > .title {
-    font-size: 2rem;
+    font-size: $titleGroup-title-font-size;
     font-weight: bold;
     letter-spacing: 0.05em;
   }
@@ -33,7 +33,7 @@
       display: none;
     }
     margin-top: 0.5rem;
-    font-size: 0.95rem;
+    font-size: $titleGroup-subTitle-font-size;
     font-weight: normal;
     letter-spacing: 0.075em;
   }

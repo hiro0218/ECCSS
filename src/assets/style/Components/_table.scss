@@ -1,7 +1,7 @@
 .c-table {
   max-width: 100%;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: $table-bg;
+  border: 1px solid $table-border-color;
   border-collapse: collapse;
   text-align: left;
 
@@ -16,14 +16,14 @@
   th,
   td {
     padding: 1rem;
-    border: 1px solid #ddd;
-    border-top: 1px solid #ddd;
+    border: 1px solid $table-border-color;
+    border-top: 1px solid $table-border-color;
     font-weight: normal;
     vertical-align: top;
   }
 
   th {
-    background: #f6f6f6;
+    background: $table-head-bg;
     white-space: nowrap;
   }
 
@@ -35,10 +35,10 @@
   }
 
   thead th {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid $table-border-color;
   }
 
   tbody + tbody {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid $table-border-color;
   }
 }
