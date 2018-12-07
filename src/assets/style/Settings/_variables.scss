@@ -49,3 +49,10 @@ $breadcrumb-item-margin: 0.5rem !default;
 $breadcrumb-active-color: $oc-gray-6 !default;
 $breadcrumb-divider-color: $oc-gray-6 !default;
 $breadcrumb-divider: quote('/') !default;
+
+// List group
+
+$list-group-padding-y: 0.75rem !default;
+$list-group-padding-x: 1rem !default;
+$list-group-border-color: $oc-gray-4 !default;
+$list-group-disabled-color: lighten($base-color, 60%) !default;

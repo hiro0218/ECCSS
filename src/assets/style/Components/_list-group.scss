@@ -25,7 +25,7 @@
         background-image: url('~@src/assets/image/arrow_right.svg?fill=#{$color-white} path');
       }
       &.disabled::after {
-        background-image: url('~@src/assets/image/arrow_right.svg?fill=#{lighten($base-color, 60%)} path');
+        background-image: url('~@src/assets/image/arrow_right.svg?fill=#{$list-group-disabled-color} path');
       }
     }
   }
@@ -54,8 +54,8 @@
 
   .list-group-item {
     display: block;
-    padding: 0.75rem 1rem;
-    border: 1px solid $oc-gray-4;
+    padding: $list-group-padding-y $list-group-padding-x;
+    border: 1px solid $list-group-border-color;
     & + .list-group-item {
       border-top: none;
     }
@@ -67,7 +67,7 @@
     }
 
     &.disabled {
-      color: lighten($base-color, 60%);
+      color: $list-group-disabled-color;
       pointer-events: none;
     }
   }
