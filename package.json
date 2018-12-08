@@ -49,7 +49,7 @@
   "dependencies": {
     "normalize.css": "^8.0.1",
     "open-color": "^1.6.3",
-    "vuepress": "^0.14.8"
+    "vuepress": "^1.0.0-alpha.27"
   },
   "husky": {
     "hooks": {
