@@ -1,7 +1,6 @@
 .c-title-group {
   justify-content: center;
   text-align: center;
-  text-transform: uppercase;
 
   &.left {
     justify-content: flex-start;
@@ -10,6 +9,9 @@
   &.right {
     justify-content: flex-end;
     text-align: right;
+  }
+  &.uppercase {
+    text-transform: uppercase;
   }
   &.lowercase {
     text-transform: lowercase;

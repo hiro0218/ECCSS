@@ -4,14 +4,14 @@
 
 <div class="sample-container">
   <div class="c-title-group">
-    <div class="title">SHOPPING GUIDE</div>
+    <div class="title">Shopping Guide</div>
     <div class="sub-title">ショッピングガイド</div>
   </div>
 </div>
 
 ```html
 <div class="c-title-group">
-  <div class="title">SHOPPING GUIDE</div>
+  <div class="title">Shopping Guide</div>
   <div class="sub-title">ショッピングガイド</div>
 </div>
 ```
@@ -20,14 +20,14 @@
 
 <div class="sample-container">
   <div class="c-title-group left">
-    <div class="title">SHOPPING GUIDE</div>
+    <div class="title">Shopping Guide</div>
     <div class="sub-title">ショッピングガイド</div>
   </div>
 </div>
 
 ```html
 <div class="c-title-group left">
-  <div class="title">SHOPPING GUIDE</div>
+  <div class="title">Shopping Guide</div>
   <div class="sub-title">ショッピングガイド</div>
 </div>
 ```
@@ -36,14 +36,14 @@
 
 <div class="sample-container">
   <div class="c-title-group right">
-    <div class="title">SHOPPING GUIDE</div>
+    <div class="title">Shopping Guide</div>
     <div class="sub-title">ショッピングガイド</div>
   </div>
 </div>
 
 ```html
 <div class="c-title-group right">
-  <div class="title">SHOPPING GUIDE</div>
+  <div class="title">Shopping Guide</div>
   <div class="sub-title">ショッピングガイド</div>
 </div>
 ```
@@ -52,14 +52,14 @@
 
 <div class="sample-container">
   <div class="c-title-group horizontal">
-    <div class="title">SHOPPING GUIDE</div>
+    <div class="title">Shopping Guide</div>
     <div class="sub-title">ショッピングガイド</div>
   </div>
 </div>
 
 ```html
 <div class="c-title-group horizontal">
-  <div class="title">SHOPPING GUIDE</div>
+  <div class="title">Shopping Guide</div>
   <div class="sub-title">ショッピングガイド</div>
 </div>
 ```
@@ -80,13 +80,29 @@
 </div>
 ```
 
+## default
+
+<div class="sample-container">
+  <div class="c-title-group">
+    <div class="title">Shopping Guide</div>
+    <div class="sub-title">ショッピングガイド</div>
+  </div>
+</div>
+
+```html
+<div class="c-title-group">
+  <div class="title">Shopping Guide</div>
+  <div class="sub-title">ショッピングガイド</div>
+</div>
+```
+
 ## disable sub-title
 
 `$enable-title-group-sub-title`を`false`に設定するとサブタイトルが非表示になります。
 
 <div class="sample-container">
   <div class="c-title-group lowercase">
-    <div class="title">SHOPPING GUIDE</div>
+    <div class="title">Shopping Guide</div>
     <div class="sub-title" style="display:none">ショッピングガイド</div>
   </div>
 </div>
@@ -97,7 +113,7 @@ $enable-title-group-sub-title: false;
 
 ```html
 <div class="c-title-group lowercase">
-  <div class="title">SHOPPING GUIDE</div>
+  <div class="title">Shopping Guide</div>
   <div class="sub-title">ショッピングガイド</div>
 </div>
 ```
