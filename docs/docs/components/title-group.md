@@ -117,3 +117,23 @@ $enable-title-group-sub-title: false;
   <div class="sub-title">ショッピングガイド</div>
 </div>
 ```
+
+## lead text
+
+タイトルの説明、リード文を`.lead`要素内に記述できます。
+
+<div class="sample-container">
+  <div class="c-title-group">
+    <div class="title">Shopping Guide</div>
+    <div class="sub-title">ショッピングガイド</div>
+    <p class="lead">当オンラインショップの使い方、購入方法をご案内します</p>
+  </div>
+</div>
+
+```html
+<div class="c-title-group">
+  <div class="title">Shopping Guide</div>
+  <div class="sub-title">ショッピングガイド</div>
+  <p class="lead">当オンラインショップの使い方、購入方法をご案内します</p>
+</div>
+```

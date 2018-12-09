@@ -37,6 +37,13 @@
     margin-top: 0.5rem;
     font-size: $titleGroup-subTitle-font-size;
     font-weight: normal;
+    line-height: 1;
     letter-spacing: 0.075em;
+  }
+  > .lead {
+    margin: 0.75rem 0 0;
+    color: $titleGroup-lead-color;
+    font-size: $titleGroup-lead-font-size;
+    line-height: 2;
   }
 }
