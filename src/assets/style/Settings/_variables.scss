@@ -31,6 +31,14 @@ $alert-padding-y: 1rem !default;
 $alert-padding-x: 1rem !default;
 $alert-border-radius: 0.15rem !default;
 
+// Badge
+
+$badge-padding-y: 0.25em !default;
+$badge-padding-x: 0.4em !default;
+$badge-font-size: 0.75em !default;
+$badge-border-radius: 0.15rem !default;
+$badge-counter-bg: $oc-red-8 !default;
+
 // Breadcrumb
 
 $breadcrumb-padding-y: 0.75rem !default;

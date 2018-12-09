@@ -1,0 +1,33 @@
+.c-badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: $badge-padding-y $badge-padding-x;
+  font-size: $badge-font-size;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: $badge-border-radius;
+
+  &:empty {
+    display: none;
+  }
+
+  @each $color, $value in $theme-colors {
+    &.#{$color} {
+      background: $value;
+      color: $color-white;
+    }
+  }
+
+  &.counter {
+    width: $badge-font-size * 2;
+    height: $badge-font-size * 2;
+    padding: 1em;
+    font-size: $badge-font-size;
+    background: $badge-counter-bg;
+    color: $color-white;
+    border-radius: 100%;
+  }
+}
