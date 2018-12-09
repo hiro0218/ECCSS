@@ -24,10 +24,10 @@
   "author": "hiro <hiro@0218.jp>",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^9.4.0",
+    "autoprefixer": "^9.4.2",
     "clean-webpack-plugin": "^1.0.0",
     "cross-env": "^5.2.0",
-    "css-loader": "^1.0.1",
+    "css-loader": "^2.0.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^2.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
@@ -41,15 +41,15 @@
     "sass-lint": "^1.12.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "svg-transform-loader": "^2.0.2",
-    "webpack": "^4.26.1",
+    "svg-transform-loader": "^2.0.3",
+    "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2",
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
     "open-color": "^1.6.3",
-    "vuepress": "^0.14.8"
+    "vuepress": "^1.0.0-alpha.27"
   },
   "husky": {
     "hooks": {
