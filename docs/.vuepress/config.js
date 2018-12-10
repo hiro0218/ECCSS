@@ -38,6 +38,7 @@ module.exports = {
         collapsable: false,
         children: [
           `${path_components}/alert`,
+          `${path_components}/badge`,
           `${path_components}/breadcrumb`,
           `${path_components}/button`,
           `${path_components}/list`,
