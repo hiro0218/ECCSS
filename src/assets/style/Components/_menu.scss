@@ -1,0 +1,40 @@
+.c-menu {
+  color: $base-color;
+
+  .menu-header {
+    display: block;
+    font-weight: bold;
+
+    &:not(:first-child) {
+      margin-top: 1.25rem;
+    }
+  }
+
+  .menu-list {
+    padding: 0;
+    list-style: none;
+    line-height: 1;
+
+    .menu-list {
+      margin: 0.85rem;
+    }
+
+    a {
+      display: block;
+      padding: $menu-padding-y $menu-padding-x;
+      border-radius: $menu-border-radius;
+      color: $menu-list-color;
+      transition: background 0.2s ease;
+
+      &:hover {
+        background: $plain-bg;
+        text-decoration: none;
+      }
+
+      &.active {
+        background-color: $primary-color;
+        color: $color-white;
+      }
+    }
+  }
+}
