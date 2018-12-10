@@ -4,7 +4,7 @@
     :class="{ first, collapsable }"
   >
     <p
-      class="sidebar-heading"
+      class="menu-header"
       :class="{ open }"
       @click="$emit('toggle')"
     >
@@ -48,20 +48,14 @@ export default {
   .sidebar-group
     padding-left 0.5em
   &:not(.collapsable)
-    .sidebar-heading
+    .menu-header
       cursor auto
       color inherit
 
-.sidebar-heading
-  color #999
-  transition color .15s ease
+.menu-header
   cursor pointer
   font-size 1.1em
   font-weight bold
-  // text-transform uppercase
-  padding 0 1.5rem
-  margin-top 0
-  margin-bottom 0.5rem
   &.open, &:hover
     color inherit
   .arrow
