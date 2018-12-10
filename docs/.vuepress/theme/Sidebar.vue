@@ -1,8 +1,8 @@
 <template>
-  <div class="sidebar">
+  <aside class="sidebar c-menu">
     <NavLinks/>
     <slot name="top"/>
-    <ul class="sidebar-links" v-if="items.length">
+    <ul class="menu-list" v-if="items.length">
       <li v-for="(item, i) in items" :key="i">
         <SidebarGroup
           v-if="item.type === 'group'"
@@ -16,7 +16,7 @@
       </li>
     </ul>
     <slot name="bottom"/>
-  </div>
+  </aside>
 </template>
 
 <script>
@@ -99,8 +99,8 @@ function resolveOpenGroupIndex (route, items) {
       line-height 1.25rem
       font-size 1.1em
       padding 0.5rem 0 0.5rem 1.5rem
-  .sidebar-links
-    padding 1.5rem 0
+  &.c-menu .menu-list
+    padding 0.75rem 1.5rem
 
 @media (max-width: $MQMobile)
   .sidebar
@@ -108,6 +108,4 @@ function resolveOpenGroupIndex (route, items) {
       display block
       .dropdown-wrapper .nav-dropdown .dropdown-item a.router-link-active::after
         top calc(1rem - 2px)
-    .sidebar-links
-      padding 1rem 0
 </style>

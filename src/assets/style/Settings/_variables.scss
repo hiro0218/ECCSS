@@ -65,6 +65,13 @@ $list-group-padding-x: 1rem !default;
 $list-group-border-color: $oc-gray-4 !default;
 $list-group-disabled-color: lighten($base-color, 60%) !default;
 
+// Menu
+
+$menu-list-color: $oc-gray-7 !default;
+$menu-padding-y: 0.75rem !default;
+$menu-padding-x: 1rem !default;
+$menu-border-radius: 0.15rem !default;
+
 // table
 
 $table-bg: #fff !default;
