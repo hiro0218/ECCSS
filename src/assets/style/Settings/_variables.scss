@@ -84,3 +84,17 @@ $titleGroup-title-font-size: 2rem !default;
 $titleGroup-subTitle-font-size: $titleGroup-title-font-size * 0.475 !default;
 $titleGroup-lead-font-size: 0.9rem !default;
 $titleGroup-lead-color: $oc-gray-6 !default;
+
+// Form
+
+$input-height: 2.25rem !default;
+$input-bg: #fff !default;
+$input-disabled-bg: $oc-gray-2 !default;
+$input-border-color: $oc-gray-3 !default;
+$input-margin: 0.25rem !default;
+$input-padding-y: 0.35rem !default;
+$input-padding-x: 0.5rem !default;
+$input-focus-size: 0 0 0 0.2rem !default;
+$input-border-radius: 0.15rem !default;
+$input-placeholder-color: $oc-gray-6 !default;
+$input-select-arrow-width: 1.25em !default;

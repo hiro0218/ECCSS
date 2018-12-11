@@ -70,6 +70,108 @@
 
 ## input
 
+### input
+
+<div class="sample-container">
+  <input class="c-input" type="text" name="text" placeholder="Placeholder">
+  <input class="c-input" type="text" name="text" value="Text">
+  <input class="c-input" type="text" name="text" value="Disabled" disabled>
+  <input class="c-input" type="text" name="text" value="Readonly" readonly>
+</div>
+
+```html
+  <input class="c-input" type="text" name="text" placeholder="Placeholder">
+  <input class="c-input" type="text" name="text" value="Text">
+  <input class="c-input" type="text" name="text" value="Disabled" disabled>
+  <input class="c-input" type="text" name="text" value="Readonly" readonly>
+```
+
+
+### textarea
+
+<div class="sample-container">
+  <textarea class="c-textarea" name="textarea" placeholder="Placeholder"></textarea>
+  <textarea class="c-textarea" name="textarea">Text</textarea>
+  <textarea class="c-textarea" name="textarea" disabled>Disabled</textarea>
+  <textarea class="c-textarea" name="textarea" readonly>Readonly</textarea>
+</div>
+
+```html
+  <textarea class="c-textarea" name="textarea" placeholder="Placeholder"></textarea>
+  <textarea class="c-textarea" name="textarea">Text</textarea>
+  <textarea class="c-textarea" name="textarea" disabled>Disabled</textarea>
+  <textarea class="c-textarea" name="textarea" readonly>Readonly</textarea>
+```
+
+
+## select
+
+<div class="sample-container">
+  <div class="o-columns">
+    <div class="column is-full">
+      <div class="c-select">
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+        <div class="c-select">
+          <select disabled>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+      </div>
+    </div>
+    <div class="column is-full">
+      <div class="c-select multiple">
+        <select multiple>
+          <option selected>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="c-select multiple">
+        <select multiple disabled>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+
+```html
+<div class="c-select">
+  <select>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+  </select>
+</div>
+<div class="c-select multiple">
+  <select multiple>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+  </select>
+</div>
+```
+
 ## checkbox
 
 <div class="sample-container">
