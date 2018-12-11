@@ -121,3 +121,68 @@
 .c-input {
   height: $input-height;
 }
+
+// select
+.c-select {
+  position: relative;
+  display: inline-flex;
+  margin: $input-margin auto;
+  min-height: $input-height;
+  border: 1px solid $input-border-color;
+  border-radius: $input-border-radius;
+  background-color: $input-bg;
+
+  > select {
+    flex: 1 0 0;
+    padding: $input-padding-y $input-padding-x;
+    border: none;
+    border-radius: 0;
+    background-color: $input-bg;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    &:focus {
+      border-color: $primary-color;
+      box-shadow: $input-focus-size rgba($primary-color, 0.5);
+      outline: 0;
+    }
+
+    &:disabled,
+    &[readonly] {
+      background-color: $input-disabled-bg;
+      opacity: 1;
+    }
+  }
+
+  &.multiple {
+    > select {
+      height: auto;
+      padding: 0;
+      > option {
+        padding: $input-padding-y $input-padding-x;
+      }
+    }
+  }
+
+  &:not(.multiple) {
+    > select {
+      padding-right: $input-select-arrow-width;
+    }
+    &::after {
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      width: $input-select-arrow-width;
+      height: 100%;
+      content: '';
+      background-image: url('~@src/assets/image/arrow_down-xs.svg?fill=#{$plain-color} path');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      pointer-events: none;
+    }
+  }
+}
