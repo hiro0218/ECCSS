@@ -49,6 +49,7 @@
       margin-right: 0.25em;
       background-repeat: no-repeat;
       background-size: contain;
+      transition: background 0.1s ease;
       content: '';
     }
     &:disabled + label,
