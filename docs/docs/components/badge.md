@@ -1,4 +1,4 @@
-# badge
+# Badge
 
 ## default
 
