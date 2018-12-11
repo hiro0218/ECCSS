@@ -70,6 +70,40 @@
 
 ## input
 
+### input
+
+<div class="sample-container">
+  <input class="c-input" type="text" name="text" placeholder="Placeholder">
+  <input class="c-input" type="text" name="text" value="Text">
+  <input class="c-input" type="text" name="text" value="Disabled" disabled>
+  <input class="c-input" type="text" name="text" value="Readonly" readonly>
+</div>
+
+```html
+  <input class="c-input" type="text" name="text" placeholder="Placeholder">
+  <input class="c-input" type="text" name="text" value="Text">
+  <input class="c-input" type="text" name="text" value="Disabled" disabled>
+  <input class="c-input" type="text" name="text" value="Readonly" readonly>
+```
+
+
+### textarea
+
+<div class="sample-container">
+  <textarea class="c-textarea" name="textarea" placeholder="Placeholder"></textarea>
+  <textarea class="c-textarea" name="textarea">Text</textarea>
+  <textarea class="c-textarea" name="textarea" disabled>Disabled</textarea>
+  <textarea class="c-textarea" name="textarea" readonly>Readonly</textarea>
+</div>
+
+```html
+  <textarea class="c-textarea" name="textarea" placeholder="Placeholder"></textarea>
+  <textarea class="c-textarea" name="textarea">Text</textarea>
+  <textarea class="c-textarea" name="textarea" disabled>Disabled</textarea>
+  <textarea class="c-textarea" name="textarea" readonly>Readonly</textarea>
+```
+
+
 ## checkbox
 
 <div class="sample-container">
