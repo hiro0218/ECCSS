@@ -41,6 +41,7 @@ module.exports = {
           `${path_components}/badge`,
           `${path_components}/breadcrumb`,
           `${path_components}/button`,
+          `${path_components}/card`,
           `${path_components}/list`,
           `${path_components}/list-group`,
           `${path_components}/menu`,
