@@ -58,6 +58,13 @@ $button-focus-size: 0 0 0 0.2rem !default;
 $button-transition: opacity 0.2s ease !default;
 $button-outline-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out !default;
 
+// Card
+
+$card-padding-y: 0.75rem !default;
+$card-padding-x: 1.25rem !default;
+$card-border-radius: 0.15rem !default;
+$card-border-color: $oc-gray-3 !default;
+
 // List group
 
 $list-group-padding-y: 0.75rem !default;
