@@ -10,7 +10,7 @@
           <h3 class="card-title">Pangram</h3>
         </header>
         <div class="card-body">The quick brown fox jumps over the lazy dog.</div>
-        <footer class="card-footer"><a href="https://ja.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog">Wikipedia</a></footer>
+        <footer class="card-footer"><a href="https://ja.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog" target="_blank">Wikipedia</a></footer>
       </section>
     </div>
   </div>
@@ -22,7 +22,7 @@
     <h3 class="card-title">Pangram</h3>
   </header>
   <div class="card-body">The quick brown fox jumps over the lazy dog.</div>
-  <footer class="card-footer"><a href="https://ja.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog">Wikipedia</a></footer>
+  <footer class="card-footer"><a href="https://ja.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog" target="_blank">Wikipedia</a></footer>
 </section>
 ```
 
@@ -36,7 +36,7 @@
           <h3 class="card-title">Pangram</h3>
         </header>
         <div class="card-body">The quick brown fox jumps over the lazy dog.</div>
-        <footer class="card-footer"><a href="https://ja.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog">Wikipedia</a></footer>
+        <footer class="card-footer"><a href="https://ja.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog" target="_blank">Wikipedia</a></footer>
       </section>
     </div>
   </div>
@@ -48,7 +48,7 @@
     <h3 class="card-title">Pangram</h3>
   </header>
   <div class="card-body">The quick brown fox jumps over the lazy dog.</div>
-  <footer class="card-footer"><a href="https://ja.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog">Wikipedia</a></footer>
+  <footer class="card-footer"><a href="https://ja.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog" target="_blank">Wikipedia</a></footer>
 </section>
 ```
 
@@ -59,7 +59,7 @@
     <div class="column is-half">
       <section class="c-card border">
         <div class="card-image">
-          <img src="https://source.unsplash.com/320x200/?fox">
+          <img src="https://source.unsplash.com/320x200/?fox" alt="fox">
         </div>
         <header class="card-header">
           <h3 class="card-title">Pangram</h3>
@@ -73,7 +73,7 @@
     <div class="column is-half">
       <section class="c-card border">
         <div class="card-image">
-          <img src="https://source.unsplash.com/320x200/?fox">
+          <img src="https://source.unsplash.com/320x200/?fox" alt="fox">
         </div>
         <div class="card-body">The quick brown fox jumps over the lazy dog.</div>
       </section>
@@ -84,7 +84,7 @@
 ```html
 <section class="c-card border">
   <div class="card-image">
-    <img src="https://source.unsplash.com/320x200/?fox">
+    <img src="https://source.unsplash.com/320x200/?fox" alt="fox">
   </div>
   <header class="card-header">
     <h3 class="card-title">Pangram</h3>
@@ -95,7 +95,7 @@
 
 <section class="c-card border">
   <div class="card-image">
-    <img src="https://source.unsplash.com/320x200/?fox">
+    <img src="https://source.unsplash.com/320x200/?fox" alt="fox">
   </div>
   <div class="card-body">The quick brown fox jumps over the lazy dog.</div>
 </section>
