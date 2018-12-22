@@ -1,0 +1,40 @@
+.c-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: $card-border-radius;
+
+  &.border {
+    border: 1px solid $card-border-color;
+  }
+
+  .card-header,
+  .card-footer {
+    padding: $card-padding-y $card-padding-x;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    padding: ($card-padding-y / 2) $card-padding-x;
+
+    &:first-child,
+    &:last-child {
+      padding: $card-padding-y $card-padding-x;
+    }
+  }
+
+  .card-footer {
+    font-size: 0.95rem;
+  }
+
+  .card-image {
+    overflow: hidden;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .card-title {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+}
