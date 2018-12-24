@@ -17,7 +17,7 @@
       }
     }
 
-    &.#{$key}.outline {
+    &.#{$key}.is-outline {
       border-color: $color;
       background-color: transparent;
     }
