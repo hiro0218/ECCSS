@@ -1,6 +1,17 @@
 .o-columns {
   display: flex;
-  flex-wrap: wrap;
+
+  &.is-centered {
+    justify-content: center;
+  }
+
+  &.is-vcentered {
+    align-items: center;
+  }
+
+  &.is-multiline {
+    flex-wrap: wrap;
+  }
 
   .column {
     display: block;
