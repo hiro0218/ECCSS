@@ -107,7 +107,7 @@
 ## select
 
 <div class="sample-container">
-  <div class="o-columns">
+  <div class="o-columns is-multiline">
     <div class="column is-full">
       <div class="c-select">
         <select>
