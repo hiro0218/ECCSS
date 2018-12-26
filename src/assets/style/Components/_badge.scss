@@ -15,13 +15,13 @@
   }
 
   @each $color, $value in $theme-colors {
-    &.#{$color} {
+    &.is-#{$color} {
       background: $value;
       color: $color-white;
     }
   }
 
-  &.counter {
+  &.is-counter {
     width: $badge-font-size * 2;
     height: $badge-font-size * 2;
     padding: 1em;
