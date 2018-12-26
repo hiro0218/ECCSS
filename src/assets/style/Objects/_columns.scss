@@ -1,6 +1,17 @@
 .o-columns {
   display: flex;
-  flex-wrap: wrap;
+
+  &.is-centered {
+    justify-content: center;
+  }
+
+  &.is-vcentered {
+    align-items: center;
+  }
+
+  &.is-multiline {
+    flex-wrap: wrap;
+  }
 
   .column {
     display: block;
@@ -13,14 +24,49 @@
       width: 100%;
     }
 
+    &.is-four-fifths {
+      flex: none;
+      width: 80%;
+    }
+
+    &.is-three-quarters {
+      flex: none;
+      width: 75%;
+    }
+
+    &.is-two-thirds {
+      flex: none;
+      width: 66.6666%;
+    }
+
+    &.is-three-fifths {
+      flex: none;
+      width: 60%;
+    }
+
     &.is-half {
       flex: none;
       width: 50%;
     }
 
+    &.is-two-fifths {
+      flex: none;
+      width: 40%;
+    }
+
+    &.is-one-third {
+      flex: none;
+      width: 33.3333%;
+    }
+
     &.is-one-quarter {
       flex: none;
       width: 25%;
+    }
+
+    &.is-one-fifth {
+      flex: none;
+      width: 20%;
     }
   }
 }
