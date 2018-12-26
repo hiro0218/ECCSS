@@ -5,7 +5,7 @@
     <ol class="c-breadcrumb">
       <li class="breadcrumb-item"><a href="#">Home</a></li>
       <li class="breadcrumb-item"><a href="#">Item List</a></li>
-      <li class="breadcrumb-item active">Item Detail</li>
+      <li class="breadcrumb-item is-active">Item Detail</li>
     </ol>
   </nav>
 </div>
@@ -14,7 +14,7 @@
 <ol class="c-breadcrumb">
   <li class="breadcrumb-item"><a href="#">Home</a></li>
   <li class="breadcrumb-item"><a href="#">Item List</a></li>
-  <li class="breadcrumb-item active">Item Detail</li>
+  <li class="breadcrumb-item is-active">Item Detail</li>
 </ol>
 ```
 
