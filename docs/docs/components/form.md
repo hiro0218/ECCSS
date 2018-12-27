@@ -129,7 +129,7 @@
       </div>
     </div>
     <div class="column is-full">
-      <div class="c-select multiple">
+      <div class="c-select is-multiple">
         <select multiple>
           <option selected>1</option>
           <option>2</option>
@@ -138,7 +138,7 @@
           <option>5</option>
         </select>
       </div>
-      <div class="c-select multiple">
+      <div class="c-select is-multiple">
         <select multiple disabled>
           <option>1</option>
           <option>2</option>
@@ -161,7 +161,7 @@
     <option>5</option>
   </select>
 </div>
-<div class="c-select multiple">
+<div class="c-select is-multiple">
   <select multiple>
     <option>1</option>
     <option>2</option>
