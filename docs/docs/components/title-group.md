@@ -19,14 +19,14 @@
 ## left
 
 <div class="sample-container">
-  <div class="c-title-group left">
+  <div class="c-title-group is-left">
     <div class="title">Shopping Guide</div>
     <div class="sub-title">ショッピングガイド</div>
   </div>
 </div>
 
 ```html
-<div class="c-title-group left">
+<div class="c-title-group is-left">
   <div class="title">Shopping Guide</div>
   <div class="sub-title">ショッピングガイド</div>
 </div>
@@ -35,14 +35,14 @@
 ## right
 
 <div class="sample-container">
-  <div class="c-title-group right">
+  <div class="c-title-group is-right">
     <div class="title">Shopping Guide</div>
     <div class="sub-title">ショッピングガイド</div>
   </div>
 </div>
 
 ```html
-<div class="c-title-group right">
+<div class="c-title-group is-right">
   <div class="title">Shopping Guide</div>
   <div class="sub-title">ショッピングガイド</div>
 </div>
@@ -51,14 +51,14 @@
 ## horizontal
 
 <div class="sample-container">
-  <div class="c-title-group horizontal">
+  <div class="c-title-group is-horizontal">
     <div class="title">Shopping Guide</div>
     <div class="sub-title">ショッピングガイド</div>
   </div>
 </div>
 
 ```html
-<div class="c-title-group horizontal">
+<div class="c-title-group is-horizontal">
   <div class="title">Shopping Guide</div>
   <div class="sub-title">ショッピングガイド</div>
 </div>
@@ -67,14 +67,14 @@
 ## lowercase
 
 <div class="sample-container">
-  <div class="c-title-group lowercase">
+  <div class="c-title-group is-lowercase">
     <div class="title">SHOPPING GUIDE</div>
     <div class="sub-title">ショッピングガイド</div>
   </div>
 </div>
 
 ```html
-<div class="c-title-group lowercase">
+<div class="c-title-group is-lowercase">
   <div class="title">SHOPPING GUIDE</div>
   <div class="sub-title">ショッピングガイド</div>
 </div>
@@ -101,7 +101,7 @@
 `$enable-title-group-sub-title`を`false`に設定するとサブタイトルが非表示になります。
 
 <div class="sample-container">
-  <div class="c-title-group lowercase">
+  <div class="c-title-group is-lowercase">
     <div class="title">Shopping Guide</div>
     <div class="sub-title" style="display:none">ショッピングガイド</div>
   </div>
@@ -112,7 +112,7 @@ $enable-title-group-sub-title: false;
 ```
 
 ```html
-<div class="c-title-group lowercase">
+<div class="c-title-group is-lowercase">
   <div class="title">Shopping Guide</div>
   <div class="sub-title">ショッピングガイド</div>
 </div>
