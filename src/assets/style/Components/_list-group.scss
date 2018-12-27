@@ -5,7 +5,7 @@
   padding-left: 0;
   color: $base-color;
 
-  &.arrow {
+  &.is-arrow {
     .list-group-item {
       display: flex;
       align-items: center;
@@ -21,16 +21,16 @@
         background-repeat: no-repeat;
         background-size: contain;
       }
-      &.active::after {
+      &.is-active::after {
         background-image: url('~@src/assets/image/arrow_right.svg?fill=#{$color-white} path');
       }
-      &.disabled::after {
+      &.is-disabled::after {
         background-image: url('~@src/assets/image/arrow_right.svg?fill=#{$list-group-disabled-color} path');
       }
     }
   }
 
-  &.bone {
+  &.is-bone {
     .list-group-item {
       border-right: 0;
       border-left: 0;
@@ -60,13 +60,13 @@
       border-top: none;
     }
 
-    &.active {
+    &.is-active {
       border-color: $primary-color;
       background-color: $primary-color;
       color: $color-white;
     }
 
-    &.disabled {
+    &.is-disabled {
       color: $list-group-disabled-color;
       pointer-events: none;
     }
