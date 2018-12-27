@@ -13,7 +13,7 @@
     <ul class="menu-list">
       <li><a href="javascript:void(0)">Web Developer Team</a></li>
       <li>
-        <a class="active">Engineer Team</a>
+        <a class="is-active">Engineer Team</a>
         <ul class="menu-list">
           <li><a href="javascript:void(0)">Backend Developer</a></li>
           <li><a href="javascript:void(0)">Frontend Developer</a></li>
@@ -38,7 +38,7 @@
   <ul class="menu-list">
     <li><a href="javascript:void(0)">Web Developer Team</a></li>
     <li>
-      <a class="active">Engineer Team</a>
+      <a class="is-active">Engineer Team</a>
       <ul class="menu-list">
         <li><a href="javascript:void(0)">Backend Developer</a></li>
         <li><a href="javascript:void(0)">Frontend Developer</a></li>
