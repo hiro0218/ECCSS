@@ -23,19 +23,19 @@
 ## outline
 
 <div class="sample-container">
-  <div class="c-alert plain outline">alert plain: <a href="javascript:void(0)">link text</a></div>
-  <div class="c-alert primary outline">alert primary: <a href="javascript:void(0)">link text</a></div>
-  <div class="c-alert success outline">alert success: <a href="javascript:void(0)">link text</a></div>
-  <div class="c-alert danger outline">alert danger: <a href="javascript:void(0)">link text</a></div>
-  <div class="c-alert warning outline">alert warning: <a href="javascript:void(0)">link text</a></div>
-  <div class="c-alert info outline">alert info: <a href="javascript:void(0)">link text</a></div>
+  <div class="c-alert plain is-outline">alert plain: <a href="javascript:void(0)">link text</a></div>
+  <div class="c-alert primary is-outline">alert primary: <a href="javascript:void(0)">link text</a></div>
+  <div class="c-alert success is-outline">alert success: <a href="javascript:void(0)">link text</a></div>
+  <div class="c-alert danger is-outline">alert danger: <a href="javascript:void(0)">link text</a></div>
+  <div class="c-alert warning is-outline">alert warning: <a href="javascript:void(0)">link text</a></div>
+  <div class="c-alert info is-outline">alert info: <a href="javascript:void(0)">link text</a></div>
 </div>
 
 ```html
-<div class="c-alert plain outline">alert plain</div>
-<div class="c-alert primary outline">alert primary</div>
-<div class="c-alert success outline">alert success</div>
-<div class="c-alert danger outline">alert danger</div>
-<div class="c-alert warning outline">alert warning</div>
-<div class="c-alert info outline">alert info</div>
+<div class="c-alert plain is-outline">alert plain</div>
+<div class="c-alert primary is-outline">alert primary</div>
+<div class="c-alert success is-outline">alert success</div>
+<div class="c-alert danger is-outline">alert danger</div>
+<div class="c-alert warning is-outline">alert warning</div>
+<div class="c-alert info is-outline">alert info</div>
 ```

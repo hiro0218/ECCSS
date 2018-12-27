@@ -15,7 +15,7 @@
   -moz-appearance: none;
   -webkit-appearance: none;
 
-  &.disabled,
+  &.is-disabled,
   &:disabled {
     pointer-events: none;
     opacity: 0.6;
@@ -26,7 +26,7 @@
   }
 
   @each $key, $value in $theme-colors {
-    &.#{$key} {
+    &.is-#{$key} {
       background: $value;
       color: $color-white;
       &:hover {
@@ -37,7 +37,7 @@
         box-shadow: $button-focus-size rgba($value, 0.5);
       }
     }
-    &.#{$key}.outline {
+    &.is-#{$key}.is-outline {
       background: transparent;
       border-color: $value;
       color: $value;
@@ -49,7 +49,7 @@
         opacity: 1;
       }
     }
-    &.#{$key}.flat {
+    &.is-#{$key}.is-flat {
       background: transparent;
       border-color: transparent;
       color: $value;
@@ -63,7 +63,7 @@
   }
 
   @each $key, $value in $size {
-    &.size-#{$key} {
+    &.is-size-#{$key} {
       font-size: $value * 1rem;
     }
   }

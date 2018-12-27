@@ -80,10 +80,10 @@
 </div>
 
 ```html
-  <input class="c-input" type="text" name="text" placeholder="Placeholder">
-  <input class="c-input" type="text" name="text" value="Text">
-  <input class="c-input" type="text" name="text" value="Disabled" disabled>
-  <input class="c-input" type="text" name="text" value="Readonly" readonly>
+<input class="c-input" type="text" placeholder="Placeholder">
+<input class="c-input" type="text" value="Text">
+<input class="c-input" type="text" value="Disabled" disabled>
+<input class="c-input" type="text" value="Readonly" readonly>
 ```
 
 
@@ -97,10 +97,10 @@
 </div>
 
 ```html
-  <textarea class="c-textarea" name="textarea" placeholder="Placeholder"></textarea>
-  <textarea class="c-textarea" name="textarea">Text</textarea>
-  <textarea class="c-textarea" name="textarea" disabled>Disabled</textarea>
-  <textarea class="c-textarea" name="textarea" readonly>Readonly</textarea>
+<textarea class="c-textarea" placeholder="Placeholder"></textarea>
+<textarea class="c-textarea">Text</textarea>
+<textarea class="c-textarea" disabled>Disabled</textarea>
+<textarea class="c-textarea" readonly>Readonly</textarea>
 ```
 
 
@@ -129,7 +129,7 @@
       </div>
     </div>
     <div class="column is-full">
-      <div class="c-select multiple">
+      <div class="c-select is-multiple">
         <select multiple>
           <option selected>1</option>
           <option>2</option>
@@ -138,7 +138,7 @@
           <option>5</option>
         </select>
       </div>
-      <div class="c-select multiple">
+      <div class="c-select is-multiple">
         <select multiple disabled>
           <option>1</option>
           <option>2</option>
@@ -161,7 +161,7 @@
     <option>5</option>
   </select>
 </div>
-<div class="c-select multiple">
+<div class="c-select is-multiple">
   <select multiple>
     <option>1</option>
     <option>2</option>

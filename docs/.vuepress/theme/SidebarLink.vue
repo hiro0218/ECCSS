@@ -36,7 +36,7 @@ function renderLink (h, to, text, active) {
   return h('router-link', {
     props: {
       to,
-      activeClass: '',
+      activeClass: 'is-active',
       exactActiveClass: ''
     },
     class: {
@@ -79,7 +79,7 @@ a.sidebar-link
     border-left none
 .c-menu .menu-list
   .sidebar-sub-headers
-    .sidebar-link.active
+    .sidebar-link.is-active
       background-color #f1f3f5
       color inherit
 </style>

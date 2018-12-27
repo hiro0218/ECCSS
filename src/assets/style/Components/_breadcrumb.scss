@@ -6,7 +6,7 @@
   list-style: none;
 
   .breadcrumb-item {
-    &.active {
+    &.is-active {
       color: $breadcrumb-active-color;
       font-weight: bold;
       &::before {

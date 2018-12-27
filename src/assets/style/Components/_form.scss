@@ -154,7 +154,7 @@
     }
   }
 
-  &.multiple {
+  &.is-multiple {
     > select {
       height: auto;
       padding: 0;
@@ -164,7 +164,7 @@
     }
   }
 
-  &:not(.multiple) {
+  &:not(.is-multiple) {
     > select {
       padding-right: $input-select-arrow-width;
     }

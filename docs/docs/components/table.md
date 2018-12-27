@@ -44,7 +44,7 @@
 ## no-border
 
 <div class="sample-container">
-  <table class="c-table no-border">
+  <table class="c-table is-no-border">
     <thead>
       <tr>
         <th>First Name</th>
@@ -68,7 +68,7 @@
 </div>
 
 ```html
-<table class="c-table no-border">
+<table class="c-table is-no-border">
   <thead>
     <tr>
       <th>First Name</th>
