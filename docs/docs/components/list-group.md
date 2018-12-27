@@ -25,8 +25,8 @@
 ## arrow
 
 <div class="sample-container">
-  <ul class="c-list-group arrow">
-    <li class="list-group-item active">トップス</li>
+  <ul class="c-list-group is-arrow">
+    <li class="list-group-item is-active">トップス</li>
     <li class="list-group-item">ジャケット・アウター</li>
     <li class="list-group-item">パンツ</li>
     <li class="list-group-item">オールインワン・サロペット</li>
@@ -35,8 +35,8 @@
 </div>
 
 ```html
-<ul class="c-list-group">
-  <li class="list-group-item">トップス</li>
+<ul class="c-list-group is-arrow">
+  <li class="list-group-item is-active">トップス</li>
   <li class="list-group-item">ジャケット・アウター</li>
   <li class="list-group-item">パンツ</li>
   <li class="list-group-item">オールインワン・サロペット</li>
@@ -47,7 +47,7 @@
 ## bone
 
 <div class="sample-container">
-  <ul class="c-list-group bone">
+  <ul class="c-list-group is-bone">
     <li class="list-group-item">トップス</li>
     <li class="list-group-item">ジャケット・アウター</li>
     <li class="list-group-item">パンツ</li>
@@ -57,7 +57,7 @@
 </div>
 
 ```html
-<ul class="c-list-group bone">
+<ul class="c-list-group is-bone">
   <li class="list-group-item">トップス</li>
   <li class="list-group-item">ジャケット・アウター</li>
   <li class="list-group-item">パンツ</li>
@@ -70,7 +70,7 @@
 
 <div class="sample-container">
   <ul class="c-list-group">
-    <li class="list-group-item active">トップス</li>
+    <li class="list-group-item is-active">トップス</li>
     <li class="list-group-item">ジャケット・アウター</li>
     <li class="list-group-item">パンツ</li>
     <li class="list-group-item">オールインワン・サロペット</li>
@@ -80,7 +80,7 @@
 
 ```html
 <ul class="c-list-group">
-  <li class="list-group-item active">トップス</li>
+  <li class="list-group-item is-active">トップス</li>
   <li class="list-group-item">ジャケット・アウター</li>
   <li class="list-group-item">パンツ</li>
   <li class="list-group-item">オールインワン・サロペット</li>
@@ -92,7 +92,7 @@
 
 <div class="sample-container">
   <ul class="c-list-group">
-    <li class="list-group-item disabled">トップス</li>
+    <li class="list-group-item is-disabled">トップス</li>
     <li class="list-group-item">ジャケット・アウター</li>
     <li class="list-group-item">パンツ</li>
     <li class="list-group-item">オールインワン・サロペット</li>
@@ -102,7 +102,7 @@
 
 ```html
 <ul class="c-list-group">
-  <li class="list-group-item disabled">トップス</li>
+  <li class="list-group-item is-disabled">トップス</li>
   <li class="list-group-item">ジャケット・アウター</li>
   <li class="list-group-item">パンツ</li>
   <li class="list-group-item">オールインワン・サロペット</li>
@@ -114,7 +114,7 @@
 
 <div class="sample-container">
   <div class="c-list-group">
-    <a href="javascript:void(0)" class="list-group-item active">トップス</a>
+    <a href="javascript:void(0)" class="list-group-item is-active">トップス</a>
     <a href="javascript:void(0)" class="list-group-item">ジャケット・アウター</a>
     <a href="javascript:void(0)" class="list-group-item">パンツ</a>
     <a href="javascript:void(0)" class="list-group-item">オールインワン・サロペット</a>
@@ -124,7 +124,7 @@
 
 ```html
 <div class="c-list-group">
-  <span href="javascript:void(0)" class="list-group-item active">トップス</span>
+  <span href="javascript:void(0)" class="list-group-item is-active">トップス</span>
   <a href="javascript:void(0)" class="list-group-item">ジャケット・アウター</a>
   <a href="javascript:void(0)" class="list-group-item">パンツ</a>
   <a href="javascript:void(0)" class="list-group-item">オールインワン・サロペット</a>
