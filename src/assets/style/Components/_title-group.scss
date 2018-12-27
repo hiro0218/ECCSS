@@ -2,22 +2,22 @@
   justify-content: center;
   text-align: center;
 
-  &.left {
+  &.is-left {
     justify-content: flex-start;
     text-align: left;
   }
-  &.right {
+  &.is-right {
     justify-content: flex-end;
     text-align: right;
   }
-  &.uppercase {
+  &.is-uppercase {
     text-transform: uppercase;
   }
-  &.lowercase {
+  &.is-lowercase {
     text-transform: lowercase;
   }
 
-  &.horizontal {
+  &.is-horizontal {
     display: flex;
     align-items: baseline;
     > .sub-title {
