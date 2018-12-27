@@ -80,10 +80,10 @@
 </div>
 
 ```html
-  <input class="c-input" type="text" name="text" placeholder="Placeholder">
-  <input class="c-input" type="text" name="text" value="Text">
-  <input class="c-input" type="text" name="text" value="Disabled" disabled>
-  <input class="c-input" type="text" name="text" value="Readonly" readonly>
+<input class="c-input" type="text" placeholder="Placeholder">
+<input class="c-input" type="text" value="Text">
+<input class="c-input" type="text" value="Disabled" disabled>
+<input class="c-input" type="text" value="Readonly" readonly>
 ```
 
 
@@ -97,10 +97,10 @@
 </div>
 
 ```html
-  <textarea class="c-textarea" name="textarea" placeholder="Placeholder"></textarea>
-  <textarea class="c-textarea" name="textarea">Text</textarea>
-  <textarea class="c-textarea" name="textarea" disabled>Disabled</textarea>
-  <textarea class="c-textarea" name="textarea" readonly>Readonly</textarea>
+<textarea class="c-textarea" placeholder="Placeholder"></textarea>
+<textarea class="c-textarea">Text</textarea>
+<textarea class="c-textarea" disabled>Disabled</textarea>
+<textarea class="c-textarea" readonly>Readonly</textarea>
 ```
 
 
